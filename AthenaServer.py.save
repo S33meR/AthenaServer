@@ -1,0 +1,32 @@
+import asyncio
+import websockets
+
+clients = set()
+
+async def handleClient(websocket, path):
+	clients.add(websocket)
+	print("Client Connected")
+
+	try:
+		async for message in websocket:
+			print(f"Recieved: {message}")
+			for client in clients:
+				if client !=websocket:
+					await client.send(f"Client: {message}")
+
+
+
+
+
+
+	except websockets.exceptions.ConnectionClosed:
+		print("Client disconnected")
+		clients.remove(websocket)
+async def main():
+	server = await websockets.serve(handleClient, "0.0.0.0", 8765)
+	print("Athena server started on ws://localhost:8765")
+	websocket.send("A
+	await server.wait_closed()
+
+asyncio.run(main())
+
