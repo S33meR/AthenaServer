@@ -25,8 +25,8 @@ clients = set()
 clients_lock = asyncio.Lock()
 async def broadcast(sender,message):
 	async with clients_lock:
-		for client in clients:
-			if client != clients:
+		for client in list(clients):
+			if client != sender:
 				try:
 					await client.send(f"Client {sender.remote_address}: {message}")
 					logger.info(f"Message sent to {client.remote_address}")
@@ -46,9 +46,6 @@ async def handleClient(websocket):
 		async for message in websocket:
 			await broadcast(websocket, message)
 
-	except websockets.exceptions.ConnectionClosed:
-		logger.info("Client disconnected")
-		clients.remove(websocket)
 	except Exception as e:
 		logger.error(f"Unexpected error with {websocket.remote_address}: {e}")
 	finally:
