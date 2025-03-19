@@ -22,9 +22,21 @@ logger.addHandler(fileHandler)
 logger.addHandler(sambaHandler)
 
 clients = set()
+clients_lock = asyncio.Lock()
+async def broadcast(sender,message):
+	async with clients_lock:
+		for client in clients:
+			if client != clients:
+				try:
+					await client.send(f"Client {sender.remote_address}: {message}")
+					logger.info(f"Message sent to {client.remote_address}")
+				except websockets.exceptions.ConnectionClosed:
+					logger.warning(f"Client {client.remote_address} disconnected unexpectedly.")
+					
 
-async def handleClient(websocket, path):
-	async with asyncio.Lock():
+async def handleClient(websocket):
+
+	async with clients_lock:
 		clients.add(websocket)
 
 	logger.info(f"Client connected: {websocket.remote_address}")
@@ -32,20 +44,17 @@ async def handleClient(websocket, path):
 
 	try:
 		async for message in websocket:
-			logging.info(f"Recieved from {websocket.remote_address}: {message}")
-			for client in clients:
-				print("Connected to Athena")
-				if client !=websocket:
-					await client.send(f"Client: {message}")
-
-
-
-
-
+			await broadcast(websocket, message)
 
 	except websockets.exceptions.ConnectionClosed:
-		print("Client disconnected")
+		logger.info("Client disconnected")
 		clients.remove(websocket)
+	except Exception as e:
+		logger.error(f"Unexpected error with {websocket.remote_address}: {e}")
+	finally:
+		async with clients_lock:
+			clients.remove(websocket)
+		logger.info(f"Remaining clients: {len(clients)}")
 async def main():
 	server = await websockets.serve(handleClient, "0.0.0.0", 8765)
 	logger.info("Athena started")

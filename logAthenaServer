@@ -1,2 +1,37 @@
 2025-03-19 14:54 - INFO - Athena started
 2025-03-19 16:36 - INFO - Athena started
+2025-03-19 18:15 - INFO - Athena started
+2025-03-19 18:16 - INFO - Client connected: ('127.0.0.1', 58120)
+2025-03-19 18:16 - INFO - Total connected clients: 1
+2025-03-19 18:16 - INFO - Client connected: ('127.0.0.1', 46208)
+2025-03-19 18:16 - INFO - Total connected clients: 2
+2025-03-19 18:17 - INFO - Client connected: ('127.0.0.1', 58116)
+2025-03-19 18:17 - INFO - Total connected clients: 2
+2025-03-19 18:47 - INFO - Athena started
+2025-03-19 18:48 - INFO - Client connected: ('127.0.0.1', 47594)
+2025-03-19 18:48 - INFO - Total connected clients: 1
+2025-03-19 18:48 - INFO - Client connected: ('127.0.0.1', 32868)
+2025-03-19 18:48 - INFO - Total connected clients: 2
+2025-03-19 18:51 - INFO - Athena started
+2025-03-19 18:53 - INFO - Athena started
+2025-03-19 18:53 - INFO - Client connected: ('127.0.0.1', 51310)
+2025-03-19 18:53 - INFO - Total connected clients: 1
+2025-03-19 18:53 - INFO - Remaining clients: 0
+2025-03-19 18:53 - INFO - Athena started
+2025-03-19 19:03 - INFO - Athena started
+2025-03-19 19:04 - INFO - Client connected: ('127.0.0.1', 55132)
+2025-03-19 19:04 - INFO - Total connected clients: 1
+2025-03-19 19:04 - INFO - Message sent to ('127.0.0.1', 55132)
+2025-03-19 19:04 - INFO - Message sent to ('127.0.0.1', 55132)
+2025-03-19 19:04 - INFO - Message sent to ('127.0.0.1', 55132)
+2025-03-19 19:04 - INFO - Remaining clients: 0
+2025-03-19 19:06 - INFO - Athena started
+2025-03-19 19:06 - INFO - Client connected: ('127.0.0.1', 58776)
+2025-03-19 19:06 - INFO - Total connected clients: 1
+2025-03-19 19:06 - INFO - Message sent to ('127.0.0.1', 58776)
+2025-03-19 19:06 - INFO - Remaining clients: 0
+2025-03-19 19:07 - INFO - Athena started
+2025-03-19 19:07 - INFO - Client connected: ('127.0.0.1', 45976)
+2025-03-19 19:07 - INFO - Total connected clients: 1
+2025-03-19 19:07 - INFO - Message sent to ('127.0.0.1', 45976)
+2025-03-19 19:07 - INFO - Remaining clients: 0
