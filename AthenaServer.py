@@ -8,17 +8,18 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 consoleHandler = logging.StreamHandler()
-fileHandler =  logging.FileHandler(filename = "/srv/samba/shared/logAthenaServer",mode ="a")
-
+fileHandler =  logging.FileHandler(filename ="logAthenaServer",mode ="a")
+sambaHandler = logging.FileHandler(filename ="/srv/samba/shared/logAthenaServer",mode ="a")
 formatter = logging.Formatter(
 	"%(asctime)s - %(levelname)s - %(message)s",
 	datefmt = "%Y-%m-%d %H:%M",
 )
 consoleHandler.setFormatter(formatter)
 fileHandler.setFormatter(formatter)
-
+sambaHandler.setFormatter(formatter)
 logger.addHandler(consoleHandler)
 logger.addHandler(fileHandler)
+logger.addHandler(sambaHandler)
 
 clients = set()
 
