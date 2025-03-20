@@ -28,7 +28,7 @@ async def broadcast(sender,message):
 		for client in list(clients):
 			if client != sender:
 				try:
-					await client.send(f"Client {sender.remote_address}: {message}")
+					await client.send(f"{message}")
 					logger.info(f"Message sent to {client.remote_address}")
 				except websockets.exceptions.ConnectionClosed:
 					logger.warning(f"Client {client.remote_address} disconnected unexpectedly.")

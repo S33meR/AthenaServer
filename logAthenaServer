@@ -85,3 +85,216 @@
 2025-03-19 19:18 - INFO - Client disconnected
 2025-03-19 19:18 - INFO - Remaining clients: 0
 2025-03-19 19:19 - INFO - Athena started
+2025-03-19 19:24 - INFO - Athena started
+2025-03-19 19:24 - INFO - Client connected: ('127.0.0.1', 44824)
+2025-03-19 19:24 - INFO - Total connected clients: 1
+2025-03-19 19:25 - INFO - Client connected: ('127.0.0.1', 53794)
+2025-03-19 19:25 - INFO - Total connected clients: 2
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 44824)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 53794)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 44824)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 53794)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 44824)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 53794)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 44824)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 53794)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 44824)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 53794)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 44824)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 53794)
+2025-03-19 19:26 - INFO - Message sent to ('127.0.0.1', 44824)
+2025-03-19 19:26 - INFO - Remaining clients: 1
+2025-03-19 19:26 - INFO - Remaining clients: 0
+2025-03-19 19:27 - INFO - Athena started
+2025-03-19 19:27 - INFO - Client connected: ('127.0.0.1', 35712)
+2025-03-19 19:27 - INFO - Total connected clients: 1
+2025-03-19 19:27 - INFO - Client connected: ('127.0.0.1', 35724)
+2025-03-19 19:27 - INFO - Total connected clients: 2
+2025-03-19 19:27 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:27 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35724)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - INFO - Message sent to ('127.0.0.1', 35712)
+2025-03-19 19:28 - ERROR - Unexpected error with ('127.0.0.1', 35712): sent 1011 (unexpected error) keepalive ping timeout; no close frame received
+2025-03-19 19:28 - INFO - Remaining clients: 1
+2025-03-19 19:30 - INFO - Remaining clients: 0
+2025-03-19 19:49 - INFO - Athena started
+2025-03-19 19:49 - INFO - Client connected: ('127.0.0.1', 51246)
+2025-03-19 19:49 - INFO - Total connected clients: 1
+2025-03-19 19:49 - INFO - Remaining clients: 0
+2025-03-19 19:50 - INFO - Client connected: ('127.0.0.1', 58426)
+2025-03-19 19:50 - INFO - Total connected clients: 1
+2025-03-19 19:50 - INFO - Remaining clients: 0
+2025-03-19 19:50 - INFO - Client connected: ('127.0.0.1', 38142)
+2025-03-19 19:50 - INFO - Total connected clients: 1
+2025-03-19 19:50 - INFO - Remaining clients: 0
+2025-03-19 19:50 - INFO - Client connected: ('127.0.0.1', 38154)
+2025-03-19 19:50 - INFO - Total connected clients: 1
+2025-03-19 19:50 - INFO - Remaining clients: 0
+2025-03-19 19:51 - INFO - Client connected: ('127.0.0.1', 58424)
+2025-03-19 19:51 - INFO - Total connected clients: 1
+2025-03-19 19:51 - INFO - Remaining clients: 0
+2025-03-19 19:51 - INFO - Client connected: ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Total connected clients: 1
+2025-03-19 19:51 - INFO - Client connected: ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Total connected clients: 2
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 47656)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:51 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:52 - INFO - Message sent to ('127.0.0.1', 40494)
+2025-03-19 19:52 - ERROR - Unexpected error with ('127.0.0.1', 40494): no close frame received or sent
+2025-03-19 19:52 - INFO - Remaining clients: 1
+2025-03-19 19:52 - INFO - Remaining clients: 0
+2025-03-19 20:01 - INFO - Client connected: ('127.0.0.1', 47244)
+2025-03-19 20:01 - INFO - Total connected clients: 1
+2025-03-19 20:01 - INFO - Remaining clients: 0
+2025-03-19 20:02 - INFO - Client connected: ('127.0.0.1', 46494)
+2025-03-19 20:02 - INFO - Total connected clients: 1
+2025-03-19 20:03 - INFO - Client connected: ('127.0.0.1', 33954)
+2025-03-19 20:03 - INFO - Total connected clients: 2
+2025-03-19 20:03 - INFO - Message sent to ('127.0.0.1', 46494)
+2025-03-19 20:03 - INFO - Message sent to ('127.0.0.1', 46494)
+2025-03-19 20:03 - INFO - Message sent to ('127.0.0.1', 46494)
+2025-03-19 20:03 - INFO - Message sent to ('127.0.0.1', 46494)
+2025-03-19 20:03 - INFO - Message sent to ('127.0.0.1', 46494)
+2025-03-19 20:03 - INFO - Message sent to ('127.0.0.1', 46494)
+2025-03-19 20:03 - INFO - Remaining clients: 1
+2025-03-19 20:05 - INFO - Remaining clients: 0
+2025-03-19 20:05 - INFO - Athena started
+2025-03-19 20:05 - INFO - Client connected: ('127.0.0.1', 60262)
+2025-03-19 20:05 - INFO - Total connected clients: 1
+2025-03-19 20:05 - INFO - Client connected: ('127.0.0.1', 57820)
+2025-03-19 20:05 - INFO - Total connected clients: 2
+2025-03-19 20:05 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:05 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:05 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:05 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:05 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Message sent to ('127.0.0.1', 60262)
+2025-03-19 20:06 - INFO - Remaining clients: 1
+2025-03-19 20:06 - INFO - Client connected: ('127.0.0.1', 43368)
+2025-03-19 20:06 - INFO - Total connected clients: 2
+2025-03-19 20:07 - INFO - Remaining clients: 1
+2025-03-19 20:08 - INFO - Client connected: ('127.0.0.1', 50928)
+2025-03-19 20:08 - INFO - Total connected clients: 2
+2025-03-19 20:08 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:08 - INFO - Remaining clients: 1
+2025-03-19 20:08 - INFO - Client connected: ('127.0.0.1', 35604)
+2025-03-19 20:08 - INFO - Total connected clients: 2
+2025-03-19 20:09 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:09 - INFO - Message sent to ('127.0.0.1', 57820)
+2025-03-19 20:09 - INFO - Remaining clients: 1
+2025-03-19 20:09 - INFO - Remaining clients: 0
+2025-03-19 20:12 - INFO - Client connected: ('127.0.0.1', 44306)
+2025-03-19 20:12 - INFO - Total connected clients: 1
+2025-03-19 20:25 - INFO - Remaining clients: 0
+2025-03-19 20:25 - INFO - Athena started
+2025-03-19 20:25 - INFO - Client connected: ('127.0.0.1', 57948)
+2025-03-19 20:25 - INFO - Total connected clients: 1
+2025-03-19 20:25 - INFO - Client connected: ('127.0.0.1', 43790)
+2025-03-19 20:25 - INFO - Total connected clients: 2
+2025-03-19 20:25 - INFO - Message sent to ('127.0.0.1', 57948)
+2025-03-19 20:25 - INFO - Message sent to ('127.0.0.1', 43790)
+2025-03-19 20:25 - INFO - Message sent to ('127.0.0.1', 43790)
+2025-03-19 20:26 - INFO - Message sent to ('127.0.0.1', 43790)
+2025-03-19 20:26 - INFO - Remaining clients: 1
+2025-03-19 20:26 - INFO - Remaining clients: 0
+2025-03-20 13:20 - INFO - Athena started
+2025-03-20 13:22 - INFO - Client connected: ('127.0.0.1', 47468)
+2025-03-20 13:22 - INFO - Total connected clients: 1
+2025-03-20 13:22 - INFO - Remaining clients: 0
+2025-03-20 13:36 - INFO - Athena started
+2025-03-20 13:37 - INFO - Client connected: ('127.0.0.1', 55348)
+2025-03-20 13:37 - INFO - Total connected clients: 1
+2025-03-20 13:37 - INFO - Remaining clients: 0
+2025-03-20 13:37 - INFO - Client connected: ('127.0.0.1', 46044)
+2025-03-20 13:37 - INFO - Total connected clients: 1
+2025-03-20 13:38 - INFO - Client connected: ('127.0.0.1', 36962)
+2025-03-20 13:38 - INFO - Total connected clients: 2
+2025-03-20 13:38 - INFO - Message sent to ('127.0.0.1', 46044)
+2025-03-20 13:38 - INFO - Message sent to ('127.0.0.1', 36962)
+2025-03-20 13:38 - INFO - Message sent to ('127.0.0.1', 36962)
+2025-03-20 13:39 - INFO - Message sent to ('127.0.0.1', 46044)
+2025-03-20 13:39 - INFO - Message sent to ('127.0.0.1', 46044)
+2025-03-20 13:39 - INFO - Message sent to ('127.0.0.1', 46044)
+2025-03-20 13:40 - INFO - Message sent to ('127.0.0.1', 36962)
+2025-03-20 13:40 - INFO - Message sent to ('127.0.0.1', 36962)
+2025-03-20 13:41 - INFO - Remaining clients: 1
+2025-03-20 13:41 - INFO - Remaining clients: 0
